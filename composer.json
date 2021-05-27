@@ -1,0 +1,20 @@
+{
+  "name": "academy/minicart",
+  "version": "0.0.1",
+  "description": "Magento 2 minicart assignments for academic purposes.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Academic Free License (AFL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Academy\\Minicart\\": ""
+    }
+  }
+}
